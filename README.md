@@ -1,6 +1,8 @@
 # Energyscraper
 
-A little scraper that checks the prices of gas and electricity on https://energie.be 
+A little scraper that checks the prices of gas and electricity on https://energie.be
+
+This scraper uses **outlook** as the mailserver so use a **hotmail** or **live** adress. Since google deleted the _unsafe_ auth method.
 
 ## Usage
 

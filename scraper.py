@@ -43,6 +43,7 @@ def main():
         tarifs[i-1] = float(tarifs[i-1]) / 100 
         tarifs[i-1] = str(tarifs[i-1])
 
+    # 1m3 is +- 10.2 kWh and since the prices are in kWh we need to adjust this for the Homewizards application. 
     tarifs[1] = float(tarifs[1]) * 10.2
     tarifs[1] = str(tarifs[1])
 
